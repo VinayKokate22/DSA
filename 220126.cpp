@@ -57,4 +57,4 @@ int main() {
 
     return 0;
 }
-// you will lose 
+// you will lose and the table always wins
