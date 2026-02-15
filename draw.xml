@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1800" style="background: #ffffff;">
+  <defs>
+    <linearGradient id="phase1Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#BBDEFB;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phase2Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C8E6C9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phase3Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF3E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phase4Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F3E5F5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E1BEE7;stop-opacity:1" />
+    </linearGradient>
+    
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto" viewBox="0 0 10 7">
+      <path d="M0,0 L10,3.5 L0,7 Z" fill="#333" />
+    </marker>
+  </defs>
+  
+  <text x="700" y="40" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Hybrid Elite Algorithm - Complete Flowchart</text>
+  
+  <rect x="50" y="60" width="1300" height="40" fill="#424242" rx="5"/>
+  <text x="700" y="86" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">MAIN FLOW: 4-Phase Optimization Pipeline</text>
+  
+  <g id="main-pipeline">
+    <ellipse cx="130" cy="150" rx="60" ry="30" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+    <text x="130" y="155" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">START</text>
+    
+    <line x1="190" y1="150" x2="250" y2="150" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <rect x="250" y="120" width="200" height="60" fill="url(#phase1Grad)" stroke="#1976D2" stroke-width="2" rx="5"/>
+    <text x="350" y="142" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#0D47A1">PHASE 1</text>
+    <text x="350" y="158" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1565C0">Initialization</text>
+    
+    <line x1="450" y1="150" x2="510" y2="150" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <rect x="510" y="120" width="200" height="60" fill="url(#phase2Grad)" stroke="#388E3C" stroke-width="2" rx="5"/>
+    <text x="610" y="142" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1B5E20">PHASE 2</text>
+    <text x="610" y="158" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#2E7D32">Evolution (GA)</text>
+    
+    <line x1="710" y1="150" x2="770" y2="150" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <rect x="770" y="120" width="200" height="60" fill="url(#phase3Grad)" stroke="#F57C00" stroke-width="2" rx="5"/>
+    <text x="870" y="142" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#E65100">PHASE 3</text>
+    <text x="870" y="158" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#EF6C00">Elite Refinement</text>
+    
+    <line x1="970" y1="150" x2="1030" y2="150" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <rect x="1030" y="120" width="200" height="60" fill="url(#phase4Grad)" stroke="#7B1FA2" stroke-width="2" rx="5"/>
+    <text x="1130" y="142" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#4A148C">PHASE 4</text>
+    <text x="1130" y="158" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#6A1B9A">Path Relinking</text>
+    
+    <line x1="1230" y1="150" x2="1270" y2="150" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <ellipse cx="1320" cy="150" rx="50" ry="30" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+    <text x="1320" y="155" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">END</text>
+  </g>
+
+  <rect x="50" y="220" width="1300" height="35" fill="#616161" rx="5"/>
+  <text x="700" y="243" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">DETAILED PHASE FLOWS</text>
+
+  <g stroke="#999" stroke-width="1">
+    <line x1="50" y1="255" x2="50" y2="1580"/>
+    <line x1="375" y1="255" x2="375" y2="1580"/>
+    <line x1="700" y1="255" x2="700" y2="1580"/>
+    <line x1="1025" y1="255" x2="1025" y2="1580"/>
+    <line x1="1350" y1="255" x2="1350" y2="1580"/>
+  </g>
+
+  <g id="phase1-details">
+    <rect x="50" y="255" width="325" height="1325" fill="url(#phase1Grad)" opacity="0.1"/>
+    <rect x="60" y="265" width="305" height="30" fill="#1976D2" rx="3"/>
+    <text x="212" y="285" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="white">PHASE 1: Initialization</text>
+    
+    <rect x="130" y="320" width="164" height="60" fill="#E3F2FD" stroke="#1976D2" rx="3"/>
+    <text x="212" y="340" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">1. Greedy</text>
+    <text x="212" y="355" font-family="Arial, sans-serif" font-size="8" text-anchor="middle">Sort by Potential</text>
+    
+    <line x1="212" y1="380" x2="212" y2="410" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+    
+    <rect x="130" y="410" width="164" height="60" fill="#E3F2FD" stroke="#1976D2" rx="3"/>
+    <text x="212" y="430" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">2. Quality</text>
+    <text x="212" y="445" font-family="Arial, sans-serif" font-size="8" text-anchor="middle">Max Rate/Device</text>
+    
+    <line x1="212" y1="470" x2="212" y2="500" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+    
+    <rect x="130" y="500" width="164" height="60" fill="#E3F2FD" stroke="#1976D2" rx="3"/>
+    <text x="212" y="520" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">3. Quantity</text>
+    <text x="212" y="535" font-family="Arial, sans-serif" font-size="8" text-anchor="middle">Lightest Models</text>
+  </g>
+
+  <g id="phase2-details">
+    <rect x="375" y="255" width="325" height="1325" fill="url(#phase2Grad)" opacity="0.1"/>
+    <rect x="385" y="265" width="305" height="30" fill="#388E3C" rx="3"/>
+    <text x="537" y="285" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="white">PHASE 2: GA Evolution</text>
+    
+    <rect x="455" y="320" width="164" height="40" fill="#C8E6C9" stroke="#388E3C" stroke-width="2" rx="3"/>
+    <text x="537" y="345" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Gen = 1 to 30</text>
+    
+    <line x1="537" y1="360" x2="537" y2="390" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+    
+    <rect x="455" y="390" width="164" height="70" fill="#E8F5E9" stroke="#388E3C" rx="3"/>
+    <text x="537" y="410" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Crossover (70%)</text>
+    <text x="537" y="425" font-family="Arial, sans-serif" font-size="8" text-anchor="middle">50/50 Parent Mix</text>
+    <text x="537" y="438" font-family="Arial, sans-serif" font-size="8" text-anchor="middle">Repair Violations</text>
+    
+    <line x1="537" y1="460" x2="537" y2="490" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+    
+    <rect x="455" y="490" width="164" height="70" fill="#E8F5E9" stroke="#388E3C" rx="3"/>
+    <text x="537" y="510" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle">ALNS Mutation</text>
+    <text x="537" y="525" font-family="Arial, sans-serif" font-size="8" text-anchor="middle">Destroy 20-40%</text>
+    <text x="537" y="538" font-family="Arial, sans-serif" font-size="8" text-anchor="middle">Greedy Repair</text>
+    
+    <path d="M619,525 L650,525 L650,340 L619,340" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+    <text x="655" y="430" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">Next Gen</text>
+  </g>
+
+  <g id="legend">
+    <rect x="50" y="1600" width="1300" height="150" fill="#F9F9F9" stroke="#424242" stroke-width="2" rx="5"/>
+    <text x="700" y="1630" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Algorithm Parameters &amp; Complexity</text>
+    
+    <text x="100" y="1670" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1976D2">Pop Size:</text>
+    <text x="200" y="1670" font-family="Arial, sans-serif" font-size="12">min(20, max(10, N_devices/10))</text>
+    
+    <text x="100" y="1700" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#388E3C">GA Runtime:</text>
+    <text x="200" y="1700" font-family="Arial, sans-serif" font-size="12">30 Generations | 70% Cx | 80% Mut</text>
+    
+    <rect x="950" y="1650" width="300" height="70" fill="#FFF" stroke="#FF5722" stroke-width="2" rx="5"/>
+    <text x="1100" y="1675" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#FF5722">O(G × P × N × M × K)</text>
+    <text x="1100" y="1695" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">High Quality / Heavy Compute</text>
+  </g>
+</svg>
