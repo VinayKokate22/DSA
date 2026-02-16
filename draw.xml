@@ -100,7 +100,7 @@
     <text x="537" y="285" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="white">PHASE 2: GA Evolution</text>
     
     <rect x="455" y="320" width="164" height="40" fill="#C8E6C9" stroke="#388E3C" stroke-width="2" rx="3"/>
-    <text x="537" y="345" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Gen = 1 to 30</text>
+    <text x="537" y="dfd345" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Gen = 1 to 30</text>
     
     <line x1="537" y1="360" x2="537" y2="390" stroke="#333" stroke-width="1.5" marker-end="url(#arrowhead)"/>
     
