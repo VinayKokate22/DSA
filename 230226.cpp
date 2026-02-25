@@ -1,33 +1,28 @@
-#include <iostream>
-#include <vector>
-#include <cmath>
-#include <algorithm>
-
-using namespace std;
-
-int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
-    int n;
-    if (cin >> n) {
-        vector<long long> v(n);
-        for (int i = 0; i < n; ++i) {
-            long long x;
-            cin >> x;
-            v[i] = abs(x);
-        }
-
-        sort(v.begin(), v.end());
-
-        long long ans = 0;
-        for (int i = 0; i < n; ++i) {
-            auto it = upper_bound(v.begin() + i + 1, v.end(), 2 * v[i]);
-            ans += distance(v.begin() + i + 1, it);
-        }
-
-        cout << ans << "\n";
+class Solution {
+public:
+    vector<int> sortByBits(vector<int>& arr) {
+        // sort(arr.begin(),arr.end(),[]{
+        //     return a>b;
+        // })
+        sort(arr.begin(),arr.end(),[](auto a,auto b){
+            int val1=0;
+            int val2=0;
+            int p=a;
+            int q=b;
+            while(p){
+                if(p%2)val1++;
+                p/=2;
+            }
+            while(q){
+                if(q%2)val2++;
+                q/=2;
+            }
+            if(val1==val2){
+                return a<b;
+            }
+            return val1<val2;
+            // return a<b;
+        });
+        return arr;
     }
-
-    return 0;
-}
+};
